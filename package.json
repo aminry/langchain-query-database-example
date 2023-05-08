@@ -1,5 +1,6 @@
 {
-  "name": "langchain-ts-starter",
+  "name": "langchain-query-database-example",
+  "author": "Amin Roudaki",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -24,12 +25,13 @@
     "typescript",
     "llm"
   ],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "langchain": "^0.0.39",
-    "tsup": "^6.7.0"
+    "langchain": "^0.0.71",
+    "sqlite3": "^5.1.6",
+    "tsup": "^6.7.0",
+    "typeorm": "^0.3.15"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
@@ -42,7 +44,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.8",
     "tsx": "^3.12.3",
     "typescript": "^5.0.4"
   }
